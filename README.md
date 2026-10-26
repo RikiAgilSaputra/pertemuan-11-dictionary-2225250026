@@ -10,27 +10,7 @@ Kelas: 3A
 Memodelkan data pendidikan menggunakan dictionary dan pasangan key-value.  
 ## Struktur Data 
 Jelaskan key utama dan value yang digunakan.  
-key utama yang dipakai ada A001, A002, A003, A004, A005, A006. Masing masing key utama memiliki key lagi di dalamnya, yaitu nama, kelas, dan nilai. Setiap key nama, kelas, dan nilai memiliki value berupa nama, kelas, dan nilai bersesuaian dengan nim mahasiswa yang dimaksud.
-Struktur Data `data_mahasiswa` (Nested Dictionary)
-==================================================
-
-data_mahasiswa = {
-│
-├── "A001" : { "nama": "Ayu",   "kelas": "A", "nilai": 85 },
-├── "A002" : { "nama": "Budi",  "kelas": "A", "nilai": 82 },
-├── "A003" : { "nama": "Citra", "kelas": "B", "nilai": 92 },
-├── "A004" : { "nama": "Deni",  "kelas": "B", "nilai": 74 },
-├── "A005" : { "nama": "Eka",   "kelas": "A", "nilai": 88 },
-└── "A006" : { "nama": "Fajar", "kelas": "B", "nilai": 80 }
-      │            │       │        │     │       │    │
-      │            │       │        │     │       │    └─ Inner Value (Integer)
-      │            │       │        │     │       └────── Inner Key (Atribut Nilai)
-      │            │       │        │     └────────────── Inner Value (String)
-      │            │       │        └──────────────────── Inner Key (Atribut Kelas)
-      │            │       └───────────────────────────── Inner Value (String)
-      │            └───────────────────────────────────── Inner Key (Atribut Nama)
-      │
-      └─► KEY UTAMA (Outer Key / NIM Mahasiswa)
+key utama yang dipakai ada A001, A002, A003, A004, A005, A006. Masing masing key utama memiliki key lagi di dalamnya, yaitu nama, kelas, dan nilai yang merupakan key bersarang. Setiap key nama, kelas, dan nilai memiliki value berupa nama, kelas, dan nilai yang merupakan value bersarang yang bersesuaian dengan nim mahasiswa yang dimaksud.
 
 ## Cara Menjalankan 
 python3 praktik/data_mahasiswa.py  
