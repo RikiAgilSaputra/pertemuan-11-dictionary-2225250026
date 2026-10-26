@@ -1,3 +1,4 @@
+print ("MANIPULASI DICTIONARY")
 data = {"nama": "Ayu", "nilai": 85} 
 
 data["kelas"] = "A"

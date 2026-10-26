@@ -1,3 +1,4 @@
+print ("FUNGSI DICTIONARY")
 def cari(data, nim):
     return data.get(nim, "Data tidak ditemukan")
 

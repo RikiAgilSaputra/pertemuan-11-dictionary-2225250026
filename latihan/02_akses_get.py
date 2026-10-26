@@ -1,3 +1,4 @@
+print ("AKSES GET")
 data = {"nama": "Ayu", "nilai": 85} 
 
 print(data.get("nama"))

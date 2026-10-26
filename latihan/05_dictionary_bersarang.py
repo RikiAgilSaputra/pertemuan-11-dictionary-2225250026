@@ -1,3 +1,4 @@
+print ("DICTIONARY BERSARANG")
 mahasiswa = {
     "A001" : {"nama" : "Ayu", "nilai" : 85},
     "A002" : {"nama" : "Budi", "nilai" : 78}

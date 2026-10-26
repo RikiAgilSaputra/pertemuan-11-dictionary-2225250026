@@ -1,3 +1,4 @@
+print ("DASAR DICTIONARY")
 data = {
     "nim" : "A001",
     "nama" : "Ayu",
